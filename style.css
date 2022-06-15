@@ -1,3 +1,140 @@
-h1 {
-  text-decoration: underline;
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+.header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.nav {
+  border-top: 3px solid rgb(26, 2, 60);
+  border-bottom: 3px solid rgb(26, 2, 60);
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgb(112, 110, 110);
+  font-size: 20px;
+  font-weight: bold;
+}
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.main-aboutme {
+  background-color: rgb(26, 2, 60);
+}
+.main-aboutme__title {
+  padding: 0px 5px;
+  margin: 0;
+  border-bottom: 3px solid rgb(236, 157, 12);
+  color: rgb(250, 250, 250);
+  font-size: 60px;
+}
+.main-aboutme__discription {
+  color: rgb(112, 110, 110);
+  font-size: 18px;
+  padding: 0px 5px;
+}
+.main-aboutme__location {
+  color: rgb(112, 110, 110);
+  font-size: 18px;
+  padding: 5px 5px;
+}
+.main-experience__title {
+  color: rgb(112, 110, 110);
+  font-size: 36px;
+  border-bottom: 1px solid rgb(236, 157, 12);
+}
+.main-experience__job1 {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-experience__period {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.main-education__title {
+  color: rgb(112, 110, 110);
+  font-size: 36px;
+  border-bottom: 1px solid rgb(236, 157, 12);
+}
+.main-education__university {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.main-languages__title {
+  color: rgb(112, 110, 110);
+  font-size: 36px;
+  border-bottom: 1px solid rgb(236, 157, 12);
+}
+.main-languages__language {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.aside {
+  background-color: rgb(236, 157, 12);
+}
+.aside-image {
+  margin-top: 5px;
+  margin-left: 55px;
+}
+.aside-skills__title {
+  color: rgb(112, 110, 110);
+  font-size: 24px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.aside-skiils__item {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+.aside-contacs__title {
+  color: rgb(112, 110, 110);
+  font-size: 24px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.aside-contacs__item {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  border-top: 3px solid rgb(26, 2, 60);
+  border-bottom: 3px solid rgb(26, 2, 60);
+}
+.footer-github__img {
+  display: block;
+  margin: 15px auto;
+}
+.footer-autor__title {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
 }
